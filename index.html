@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
     <title>Aunty Paula's</title>
     <script src="https://kit.fontawesome.com/db4480332a.js" crossorigin="anonymous"></script>
+    <!-- font awesome embed code -->
 </head>
 
 
@@ -27,22 +28,24 @@
 
     <nav class="navbar navbar-light navbar-expand-sm justify-items-center">
         <!--This creates a class for bootstrap nav also making it responsive-->
-        <span class=" container navbar-nav">
+        <div class=" container navbar-nav">
             <a class="navbar-brand d-none d-sm-inline-block" href="#">
                 <img src="image/logo.png" style="width: 100px" alt="Aunty Paula's Logo">
             </a>
-            <li class="nav-item"><a class="nav-link active" href="#">Shop</a></li>
-            <!----List items for menu options; the active class is a BS class that shows users that link is active-->
-            <li class="nav-item"><a class="nav-link" href="#">Flavors</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Recipes</a></li>
-        </span>
+            <ul>
+                <li class="nav-item"><a class="nav-link active" href="#">Shop</a></li>
+                <!-- List items for menu options; the active class is a BS class that shows users that link is active-->
+                <li class="nav-item"><a class="nav-link" href="#">Flavors</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Recipes</a></li>
+            </ul>
+        </div>
 
     </nav>
 
     <div class="container">
         <div class="jumbotron jumbotron-fluid">
-            <!--This is a container that allows for image to be overlaid with text -->
+            <!-- This is a container that allows for image to be overlaid with text -->
 
             <h1 class="display-6 text-center">WELCOME TO AUNTY PAULA'S CAFE </h1>
             <h5 class="text-center">We are a family oriented ice cream company</h5>
@@ -58,7 +61,7 @@
 
             <section class="col col-sm-6 col-md-6 col-lg-6">
                 <blockquote class="blockquote">
-                    <!--This is for quoting blocks of content in BS-->
+                    <!-- This is for quoting blocks of content in BS -->
                     <h6> "You can't buy happiness, but you can buy ice cream and that is pretty much the same thing"</h6>
                 </blockquote>
             </section>
@@ -76,7 +79,7 @@
     <div class="container">
         <div class="row crds">
             <section class="card col-sm-6 col-md-3 col-lg-3 mb-3">
-                <!-- Col-sm-6 col-md-3 col-lg-3 are all responsive classes in BS. mb stands for margin button-->
+                <!-- Col-sm-6 col-md-3 col-lg-3 are all responsive classes in BS. mb stands for margin button -->
                 <img class="card-img-top image-fluid" src="image/awards.jpg" alt="awards">
                 <div class="card-body">
                     <h5 class="card-title">Awards</h5>
@@ -122,7 +125,7 @@
         <div class="row">
             <section class="col">
                 <h5 class="text-center mt-3"> Join the Family </h5>
-                <!----Margin top of 3px is added-->
+                <!-- Margin top of 3px is added -->
 
                 <p class="text-center">For News, Recipes and Competitions</p>
 
@@ -133,7 +136,7 @@
 
         <div class="row">
             <div class="col col-sm-9 col-lg-10 col-xl-10">
-                <!---defines responsiveness at various breakpoints---->
+                <!-- defines responsiveness at various breakpoints -->
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
@@ -173,14 +176,14 @@
                 <button type="button" class="btn btn-primary btn-lg btn-floating mx->">
               <i class=" fab fa-instagram "></i>
             </button>
-                <button type="button " class="btn btn-primary btn-lg btn-floating mx-2 ">
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 ">
               <i class="fab fa-twitter "></i>
             </button>
             </div>
 
             <!-- Copyright -->
-            <div class="text-center text-white p-3">
-                © 2021 Copyright:
+            <div class="text-center">
+                <p> © 2021 Copyright:</p>
                 <a class="text-white " href="https://auntypaulas.com/ ">Aunty Paula's.com</a>
             </div>
             <!-- Copyright -->
@@ -190,10 +193,6 @@
     <!-- End of .container -->
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script> -->
 
 
 
